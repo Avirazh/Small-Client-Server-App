@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -20,14 +21,47 @@ namespace WPFClient
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly HttpClient _client;
+
         public MainWindow()
         {
             InitializeComponent();
+            _client = new HttpClient();
         }
 
-        private void ButtonClick(object sender, RoutedEventArgs e)
+        private async void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("AMOGUS");
+            string username = UsernameTextBox.Text;
+            string password = PasswordTextBox.Password;
+
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Введите логин и пароль");
+                return;
+            }
+           
+            string url = "http://localhost:8080/auth"; 
+            var content = new StringContent
+                ($"username={username}&password={password}", Encoding.UTF8, "application/x-www-form-urlencoded");
+
+            try
+            {
+                HttpResponseMessage response = await _client.PostAsync(url, content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    MessageBox.Show("Авторизация успешна");
+                    // ....
+                }
+                else
+                {
+                    MessageBox.Show("Ошибка авторизации: " + response.ReasonPhrase);
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                MessageBox.Show("Ошибка при отправке запроса: " + ex.Message);
+            }
         }
     }
 }
