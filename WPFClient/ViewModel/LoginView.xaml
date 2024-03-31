@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFClient.ViewModel.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClient.ViewModel"
+        mc:Ignorable="d"
+        Title="LoginView" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Username:"/>
+        <TextBox x:Name="UsernameTextBox" Grid.Row="0" Margin="80,0,0,0" Width="150"/>
+
+        <Label Grid.Row="1" Content="Password:"/>
+        <PasswordBox x:Name="PasswordTextBox" Grid.Row="1" Margin="80,0,0,0" Width="150"/>
+
+        <Button Grid.Row="2" Content="Login" Click="LoginButton_Click" Width="100" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+    </Grid>
+</Window>
