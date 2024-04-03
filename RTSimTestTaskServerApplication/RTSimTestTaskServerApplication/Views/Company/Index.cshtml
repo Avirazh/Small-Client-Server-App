@@ -1,0 +1,14 @@
+﻿@model IEnumerable<RTSimTestTaskServerApplication.Models.Company>
+
+<h2>Список пользователей</h2>
+<p><a asp-action="Create">Добавить компанию</a></p>
+
+<table class="table">
+     <tr><th>Имя</th>></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+        </tr>
+    }
+</table>

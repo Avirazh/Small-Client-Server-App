@@ -1,7 +1,11 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -13,6 +17,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFClient.Model;
 
 namespace WPFClient
 {
@@ -23,10 +28,21 @@ namespace WPFClient
     {
         private readonly HttpClient _client;
 
+        private ObservableCollection<Company> _companies;
         public MainWindow()
         {
             InitializeComponent();
             _client = new HttpClient();
+            var response = _client.GetAsync("https://localhost:7275/company/getall").Result;
+            if(response.IsSuccessStatusCode)
+            {
+                string json = response.Content.ReadAsStringAsync().Result;
+                _companies = JsonConvert.DeserializeObject<ObservableCollection<Company>>(json);
+                foreach(var item in _companies)
+                {
+                    Trace.WriteLine(item.Name);
+                }
+            }
         }
 
         private async void LoginButton_Click(object sender, RoutedEventArgs e)
@@ -40,9 +56,10 @@ namespace WPFClient
                 return;
             }
            
-            string url = "http://localhost:8080/auth"; 
+            string url = "https://localhost:7275/company/getall"; 
             var content = new StringContent
                 ($"username={username}&password={password}", Encoding.UTF8, "application/x-www-form-urlencoded");
+            
 
             try
             {

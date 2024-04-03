@@ -14,3 +14,8 @@ D:\CSharpProjects\Small-Client-Server-App\WPFClient\obj\Debug\WPFClient.csproj.G
 D:\CSharpProjects\Small-Client-Server-App\WPFClient\obj\Debug\WPFClient.csproj.CoreCompileInputs.cache
 D:\CSharpProjects\Small-Client-Server-App\WPFClient\obj\Debug\WPFClient.exe
 D:\CSharpProjects\Small-Client-Server-App\WPFClient\obj\Debug\WPFClient.pdb
+D:\CSharpProjects\Small-Client-Server-App\WPFClient\obj\Debug\ViewModel\LoginView.g.cs
+D:\CSharpProjects\Small-Client-Server-App\WPFClient\bin\Debug\Newtonsoft.Json.dll
+D:\CSharpProjects\Small-Client-Server-App\WPFClient\bin\Debug\Newtonsoft.Json.xml
+D:\CSharpProjects\Small-Client-Server-App\WPFClient\obj\Debug\ViewModel\LoginView.baml
+D:\CSharpProjects\Small-Client-Server-App\WPFClient\obj\Debug\WPFClient.csproj.CopyComplete
