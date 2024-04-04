@@ -1,5 +1,9 @@
 ﻿
 
-FD:\CSharpProjects\Small-Client-Server-App\WPFClient\MainWindow.xaml;;
-FD:\CSharpProjects\Small-Client-Server-App\WPFClient\ViewModel\LoginView.xaml;;
+FD:\CSharpProjects\Small-Client-Server-App\WPFClient\View\AuthenticatedUserPageView.xaml;;
+FD:\CSharpProjects\Small-Client-Server-App\WPFClient\View\LoginPageView.xaml;;
+FD:\CSharpProjects\Small-Client-Server-App\WPFClient\View\LoginViaCompanyPageView.xaml;;
+FD:\CSharpProjects\Small-Client-Server-App\WPFClient\View\MainWindow.xaml;;
+FD:\CSharpProjects\Small-Client-Server-App\WPFClient\View\RegistrationPageView.xaml;;
+FD:\CSharpProjects\Small-Client-Server-App\WPFClient\View\StartPageView.xaml;;
 
