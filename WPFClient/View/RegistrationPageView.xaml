@@ -3,12 +3,53 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:WPFClient.View"
+      xmlns:local="clr-namespace:WPFClient.View" xmlns:viewmodel="clr-namespace:WPFClient.ViewModel" xmlns:xamlextentions="clr-namespace:WPFClient.Core.XamlExtentions" d:DataContext="{d:DesignInstance Type=viewmodel:RegistrationViewModel}"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="RegistrationPageView">
+    <Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
 
-    <Grid>
-        <Button Content="registr"></Button>
+    </Page.Resources>
+    <Grid Margin="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65*"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="42*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="240*"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Registration Form"  FontWeight="Bold" Grid.Column="1" Height="34" Width="184"/>
+
+        <TextBlock Text="Login:" Grid.ColumnSpan="2" Grid.Row="1" Margin="0,0,392,0"/>
+        <TextBox Text="{Binding UserLogin}" Margin="5,5,5,5" Grid.Row="1" Grid.Column="1"/>
+
+        <TextBlock Text="Password:" Grid.Row="3" Grid.ColumnSpan="2" Margin="0,0,392,0"/>
+        <xamlextentions:BindablePassword Password="{Binding Password, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="5,5,5,5" Grid.Row="3" Grid.Column="1"/>
+
+        <TextBlock Text="Company:" Grid.Row="5"/>
+        <ComboBox ItemsSource="{Binding Companies}"
+                  SelectedItem="{Binding SelectedCompany}"
+                  DisplayMemberPath="Name"
+                  Margin="5,5,5,5" 
+                  Grid.Row="5"
+                  Grid.Column="1"/>
+
+        <Button Content="Register" Command="{Binding RegistrationRequestCommand}" Margin="5,5,5,5" Grid.Column="3" Grid.Row="7"/>
     </Grid>
 </Page>

@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Navigation;
+using WPFClient.Net;
 
 namespace WPFClient.View
 {
@@ -9,8 +10,9 @@ namespace WPFClient.View
         {
             InitializeComponent();
 
+            AppHttpClient client = new AppHttpClient();
             NavigationService.GetNavigationService(frame);
-            frame.Content = new StartPageView(frame);
+            frame.Content = new StartPageView(frame, client);
         }
     }
 }

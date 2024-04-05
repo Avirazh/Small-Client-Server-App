@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\CSharpProjects\Small-Client-Server-App\WPFClient\App.xaml
-6-788078373
+7400723751
 
-19-191586261
-151836328841
-View\AuthenticatedUserPageView.xaml;View\LoginPageView.xaml;View\LoginViaCompanyPageView.xaml;View\MainWindow.xaml;View\RegistrationPageView.xaml;View\StartPageView.xaml;
+20-673376979
+231768871953
+Core\XamlExtentions\BindablePassword.xaml;View\AuthenticatedUserPageView.xaml;View\LoginPageView.xaml;View\LoginViaCompanyPageView.xaml;View\MainWindow.xaml;View\RegistrationPageView.xaml;View\StartPageView.xaml;
 
 False
 

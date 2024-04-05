@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using RTSimTestTaskServerApplication.Models;
 using RTSimTestTaskServerApplication.Models.DataAccess;
 
@@ -13,22 +14,31 @@ namespace RTSimTestTaskServerApplication.Controllers
             _dbContext = dbContext;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
+        {
+            return View(await _dbContext.Users.ToListAsync());
+        }
+
+        [HttpGet]
+        public ActionResult Register()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register(User user)
+        public async Task<IActionResult> Register([FromBody] User user)
         {
-            if (!ModelState.IsValid)
+
+            User userToAdd = new ()
             {
-                return BadRequest(ModelState);
-            }
-
-            _dbContext.Users.Add(user);
-
+                Login = user.Login,
+                PasswordHash = user.PasswordHash,
+                Company = _dbContext.Companies.FirstOrDefault(x => x.Id == user.Company.Id),
+            };
+           
+            _dbContext.Users.Add(userToAdd);
             await _dbContext.SaveChangesAsync();
+
             return Ok();
         }
 

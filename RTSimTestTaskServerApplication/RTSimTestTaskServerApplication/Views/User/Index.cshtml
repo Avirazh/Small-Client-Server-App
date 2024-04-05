@@ -1,0 +1,18 @@
+﻿@model IEnumerable<RTSimTestTaskServerApplication.Models.User>
+
+<h2>Список пользователей</h2>
+<table class="table">
+    <tr><th>Имя</th>></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Login</td>
+            <td>@item.PasswordHash</td>
+            @if (item.Company != null)
+            {
+                <td>@item.Company.Id</td>
+            }
+        </tr>
+    }
+</table>

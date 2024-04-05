@@ -9,6 +9,13 @@
     {
         <tr>
             <td>@item.Name</td>
+            @if (item.Users != null)
+            {
+                @foreach (var user in item.Users)
+                {
+                    <td>@user.Login</td>
+                }
+            }
         </tr>
     }
 </table>
