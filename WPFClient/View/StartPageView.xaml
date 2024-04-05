@@ -7,12 +7,28 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="StartPageView">
-
+    <Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="DimGray"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Page.Resources>
     <Grid>
         <Button
             Height="30" Width="150" Margin="285,147,285,177" 
             Command="{Binding LoginCommand}"
-            Content="Login"/>
+            Content="Log in"/>
         <Button
             Height="30" Width="150" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,270,0,0"
             Command="{Binding RegistrationCommand}"

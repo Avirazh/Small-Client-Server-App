@@ -1,4 +1,6 @@
-﻿namespace RTSimTestTaskServerApplication.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace RTSimTestTaskServerApplication.Models
 {
     public class User
     {

@@ -60,7 +60,7 @@ namespace WPFClient.ViewModel
         }
         public void ShowLoginView(object obj)
         {
-            _frame.Content = new LoginPageView(_frame);
+            _frame.Content = new LoginPageView(_frame, _client, Companies);
         }
 
         private bool CanShowRegistrationView(object obj)

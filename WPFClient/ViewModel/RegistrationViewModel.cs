@@ -7,10 +7,12 @@ using System.Net.Http;
 using System.Net.Http.Formatting;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using WPFClient.Model;
 using WPFClient.Net;
+using WPFClient.View;
 
 namespace WPFClient.ViewModel
 {
@@ -75,13 +77,20 @@ namespace WPFClient.ViewModel
                 Company = SelectedCompany
             };
 
-            Trace.WriteLine($"{UserLogin}, {Password}, {SelectedCompany}");
             string json = JsonConvert.SerializeObject(user);
-            Trace.WriteLine($"{json}");
 
             var stringContent = new StringContent(json, Encoding.UTF8, "application/json");
             var response = await _client.PostAsync("/user/register", stringContent);
-            Trace.WriteLine("response is success? : " + response.IsSuccessStatusCode);
+
+            if(response.IsSuccessStatusCode)
+            {
+                MessageBox.Show("You have successfully registered!");
+                _frame.Content = new LoginPageView(_frame, _client, Companies);
+            }
+            else
+            {
+                MessageBox.Show("Something went wrong :(");
+            }
         }
         private bool CanRegister(object obj)
         {

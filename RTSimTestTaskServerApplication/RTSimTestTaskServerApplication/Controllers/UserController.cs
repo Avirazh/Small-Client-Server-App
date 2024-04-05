@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using RTSimTestTaskServerApplication.Models;
 using RTSimTestTaskServerApplication.Models.DataAccess;
+using RTSimTestTaskServerApplication.Services;
 
 namespace RTSimTestTaskServerApplication.Controllers
 {
@@ -28,12 +29,18 @@ namespace RTSimTestTaskServerApplication.Controllers
         [HttpPost]
         public async Task<IActionResult> Register([FromBody] User user)
         {
+            var isLoginExisting = await _dbContext.Users.Where(u => u.Login == user.Login).AnyAsync();
 
-            User userToAdd = new ()
+            if (isLoginExisting) 
+            {
+                return BadRequest("user with that login already exists");
+            }
+
+            User userToAdd = new()
             {
                 Login = user.Login,
-                PasswordHash = user.PasswordHash,
-                Company = _dbContext.Companies.FirstOrDefault(x => x.Id == user.Company.Id),
+                PasswordHash = PasswordHashService.HashPassword(user.PasswordHash),
+                Company = _dbContext.Companies.Where(comp => comp.Id == user.Company.Id).First(),
             };
            
             _dbContext.Users.Add(userToAdd);
@@ -42,13 +49,18 @@ namespace RTSimTestTaskServerApplication.Controllers
             return Ok();
         }
 
-        public async Task<IActionResult> Login(User user)
+        [HttpPost]
+        public async Task<IActionResult> Login([FromBody] User user)
         {
-            if (!ModelState.IsValid) 
+            User userToLogin = new()
             {
-                return BadRequest(ModelState);
-            }
-            throw new NotImplementedException();
+                Login = user.Login,
+                PasswordHash = PasswordHashService.HashPassword(user.PasswordHash),
+            };
+
+            bool checkIfExists =  await _dbContext.Users.Where(u => u.Login == userToLogin.Login && u.PasswordHash == userToLogin.PasswordHash).AnyAsync();
+            
+            return checkIfExists? Ok() : BadRequest();
         }
     }
 }

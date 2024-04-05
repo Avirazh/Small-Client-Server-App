@@ -3,12 +3,64 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:WPFClient.View"
+      xmlns:local="clr-namespace:WPFClient.View" xmlns:xamlextentions="clr-namespace:WPFClient.Core.XamlExtentions" xmlns:viewmodel="clr-namespace:WPFClient.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:LoginViewModel}"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="LoginPageView">
 
-    <Grid>
-        <Button Content="login"></Button>
+    <Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="DimGray"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Page.Resources>
+    <Grid Margin="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="121*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="66*"/>
+            <RowDefinition Height="46*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="144*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="328*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="144*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Login Form"  FontWeight="Bold" Grid.Column="2" Height="34" Width="184" TextAlignment="Center"/>
+
+        <TextBlock Text="Enter Login" Grid.Row="1"/>
+        <TextBox Grid.Column="2" Margin="0,5,0,5" Grid.Row="1"
+                 Text="{Binding UserLogin}" TextAlignment="Center"/>
+        
+        <TextBlock Text="Enter Password" Grid.Row="3"/>
+        <xamlextentions:BindablePassword Grid.Column="2" Margin="0,5,0,5" Grid.Row="3"
+                                         Password="{Binding Password, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+
+
+        <Button Grid.Column="0" Grid.Row="5" Margin="5,5,5,5"
+                Content="Log in with company"
+                Command="{Binding ShowLoginViaCompanyPageCommand}">
+
+        </Button>
+        <Button Grid.Column="5" Grid.Row="5" Margin="5,5,5,5"
+                Content="Log in"
+                Command="{Binding LoginCommand}">
+
+        </Button>
     </Grid>
 </Page>
