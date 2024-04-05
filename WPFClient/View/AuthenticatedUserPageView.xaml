@@ -9,6 +9,17 @@
       Title="AuthenticatedUserPageView">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="you are logged in!" Grid.Column="1" Grid.Row="1" TextAlignment="Center" Foreground="Gray" FontSize="30"></TextBlock>
     </Grid>
 </Page>

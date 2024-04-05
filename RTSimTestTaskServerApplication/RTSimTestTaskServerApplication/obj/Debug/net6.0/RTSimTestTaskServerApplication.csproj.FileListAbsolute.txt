@@ -66,7 +66,6 @@ D:\CSharpProjects\RTSimTestTask\RTSimTestTaskServerApplication\RTSimTestTaskServ
 D:\CSharpProjects\RTSimTestTask\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\ref\RTSimTestTaskServerApplication.dll
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\bin\Debug\net6.0\appsettings.Development.json
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\bin\Debug\net6.0\appsettings.json
-D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\bin\Debug\net6.0\RTSimTestTaskServerApplication.staticwebassets.runtime.json
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\bin\Debug\net6.0\RTSimTestTaskServerApplication.exe
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\bin\Debug\net6.0\RTSimTestTaskServerApplication.deps.json
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\bin\Debug\net6.0\RTSimTestTaskServerApplication.runtimeconfig.json
@@ -112,8 +111,6 @@ D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTe
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\RTSimTestTaskServerApplication.AssemblyInfo.cs
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\RTSimTestTaskServerApplication.csproj.CoreCompileInputs.cache
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\RTSimTestTaskServerApplication.MvcApplicationPartsAssemblyInfo.cache
-D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\RTSimTestTaskServerApplication.RazorAssemblyInfo.cache
-D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\RTSimTestTaskServerApplication.RazorAssemblyInfo.cs
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\staticwebassets\msbuild.RTSimTestTaskServerApplication.Microsoft.AspNetCore.StaticWebAssets.props
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\staticwebassets\msbuild.build.RTSimTestTaskServerApplication.props
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RTSimTestTaskServerApplication.props
@@ -121,9 +118,7 @@ D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTe
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\staticwebassets.pack.json
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\staticwebassets.build.json
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\staticwebassets.development.json
-D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\scopedcss\bundle\RTSimTestTaskServerApplication.styles.css
-D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\scopedcss\projectbundle\RTSimTestTaskServerApplication.bundle.scp.css
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\RTSimTestTaskServerApplication.csproj.CopyComplete
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\RTSimTestTaskServerApplication.dll
 D:\CSharpProjects\Small-Client-Server-App\RTSimTestTaskServerApplication\RTSimTestTaskServerApplication\obj\Debug\net6.0\refint\RTSimTestTaskServerApplication.dll

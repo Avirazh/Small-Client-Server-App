@@ -1,63 +1,24 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
 using System.Net.Http;
-using System.Net.Http.Formatting;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using WPFClient.Core;
 using WPFClient.Model;
 using WPFClient.Net;
 using WPFClient.View;
 
 namespace WPFClient.ViewModel
 {
-    public class RegistrationViewModel : INotifyPropertyChanged
+    public class RegistrationViewModel : LoginBase 
     {
         private Frame _frame;
         private AppHttpClient _client;
 
-        private string _userLogin;
-        private string _password;
-        private Company _selectedCompany;
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
         public ICommand RegistrationRequestCommand { get; set; }
-
         public ObservableCollection<Company> Companies { get; set; }
-
-        public string UserLogin
-        {
-            get { return _userLogin; }
-            set
-            {
-                _userLogin = value;
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(UserLogin)));
-            }
-        }
-        public string Password
-        {
-            get { return _password; }
-            set
-            {
-                _password = value;
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Password)));
-            }
-        }
-        public Company SelectedCompany
-        {
-            get { return _selectedCompany; }
-            set
-            {
-                _selectedCompany = value;
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs($"{nameof(SelectedCompany)}"));
-            }
-        }
 
         public RegistrationViewModel(Frame frame, AppHttpClient client, ObservableCollection<Company> companies)
         {
@@ -65,10 +26,10 @@ namespace WPFClient.ViewModel
             _client = client;
             Companies = companies;
 
-            RegistrationRequestCommand = new RelayCommand(Register, CanRegister);
+            RegistrationRequestCommand = new RelayCommand(ExecuteRegister, CanExecuteRegister);
         }
 
-        public async void Register(object obj)
+        public async void ExecuteRegister(object obj)
         {
             var user = new User
             {
@@ -92,7 +53,7 @@ namespace WPFClient.ViewModel
                 MessageBox.Show("Something went wrong :(");
             }
         }
-        private bool CanRegister(object obj)
+        private bool CanExecuteRegister(object obj)
         {
             return !string.IsNullOrEmpty(UserLogin) && !string.IsNullOrEmpty(Password) && SelectedCompany != null;
         }

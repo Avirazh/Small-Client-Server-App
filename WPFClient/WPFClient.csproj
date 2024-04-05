@@ -89,6 +89,7 @@
     <Compile Include="Core\Command\RelayCommand.cs" />
     <Compile Include="Core\Net\AppHttpClient.cs" />
     <Compile Include="ViewModel\AuthenticatedUserViewModel.cs" />
+    <Compile Include="Core\LoginBase.cs" />
     <Compile Include="ViewModel\LoginViaCompanyViewModel.cs" />
     <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\RegistrationViewModel.cs" />

@@ -28,46 +28,38 @@ namespace WPFClient.ViewModel
             _frame = frame;
             _client = client;
 
-            RegistrationCommand = new RelayCommand(ShowRegistrationView, CanShowRegistrationView);
-            LoginCommand = new RelayCommand(ShowLoginView, CanShowLoginView);
+            RegistrationCommand = new RelayCommand(ExecuteShowRegistrationView, CanExecuteShowRegistrationView);
+            LoginCommand = new RelayCommand(ExecuteShowLoginView, CanExecuteShowLoginView);
 
-            _frame.Navigated += OnStartViewNavigated;
+            _frame.Navigated += OnStartViewNavigatedLoadAllCompanies;
         }
 
-        private async void OnStartViewNavigated(object sender, NavigationEventArgs e)
+        private async void OnStartViewNavigatedLoadAllCompanies(object sender, NavigationEventArgs e)
         {
             var response = await _client.GetAsync("/company/getall");
             if (response.IsSuccessStatusCode)
             {
-                string json = response.Content.ReadAsStringAsync().Result;
+                string json = await response.Content.ReadAsStringAsync();
                 Companies = JsonConvert.DeserializeObject<ObservableCollection<Company>>(json);
-                foreach (var item in Companies)
-                {
-                    Trace.Write(item.Name);
-                    foreach(var user in item.Users)
-                    {
-                        Trace.Write($" : users: {user.Login}, ");
-                    }
-                    Trace.WriteLine("");
-                }
                 _gotCompanies = true;
             }
+            _frame.Navigated -= OnStartViewNavigatedLoadAllCompanies;
         }
 
-        private void ShowRegistrationView(object obj)
+        private void ExecuteShowRegistrationView(object obj)
         {
             _frame.Content = new RegistrationPageView(_frame, _client, Companies);
         }
-        public void ShowLoginView(object obj)
+        public void ExecuteShowLoginView(object obj)
         {
             _frame.Content = new LoginPageView(_frame, _client, Companies);
         }
 
-        private bool CanShowRegistrationView(object obj)
+        private bool CanExecuteShowRegistrationView(object obj)
         {
             return _gotCompanies;
         }
-        private bool CanShowLoginView(object obj)
+        private bool CanExecuteShowLoginView(object obj)
         {
             return _gotCompanies;
         }

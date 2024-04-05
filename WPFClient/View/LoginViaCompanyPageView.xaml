@@ -3,9 +3,60 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:WPFClient.View"
+      xmlns:local="clr-namespace:WPFClient.View" xmlns:viewmodel="clr-namespace:WPFClient.ViewModel" xmlns:xamlextentions="clr-namespace:WPFClient.Core.XamlExtentions" d:DataContext="{d:DesignInstance Type=viewmodel:LoginViaCompanyViewModel}"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="LoginViaCompanyPageView">
-   
+    <Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="DimGray"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Page.Resources>
+    <Grid Margin="40">
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="10*"/>
+            <RowDefinition/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition/>
+            <RowDefinition Height="10*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="15*"/>
+
+        </Grid.ColumnDefinitions>
+        <ListBox Grid.Column="0" Grid.ColumnSpan="1" Margin="3,3,3,3" Grid.RowSpan="5" 
+                 ItemsSource="{Binding Companies}" 
+                 DisplayMemberPath="Name"
+                 SelectedItem="{Binding SelectedCompany}"/>
+        
+        <ListBox Grid.Column="2" Grid.ColumnSpan="1" Margin="3,3,3,3" Grid.RowSpan="5" 
+                 ItemsSource="{Binding Users}" 
+                 DisplayMemberPath="Login"
+                 SelectedItem="{Binding SelectedUser}"/>
+        <TextBlock Text="Enter Password" Grid.Row="0" Grid.Column="4" VerticalAlignment="Bottom"></TextBlock>
+        <xamlextentions:BindablePassword Grid.Column="4" Grid.Row="2" Margin="10 25 10 25" 
+                                         Password="{Binding Password, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+        
+        <Button Grid.Column="4" Grid.Row="4" Margin="70,40,10,10" Content="Log In"
+                Command="{Binding LoginCommand}"/>
+    </Grid>
 </Page>

@@ -14,16 +14,6 @@ namespace RTSimTestTaskServerApplication.Controllers
             _dbContext = dbContext;
         }
 
-        public async Task<IActionResult> Index()
-        {
-            return View(await _dbContext.Companies.ToListAsync());
-        }
-
-        public ActionResult Create()
-        {
-            return View();
-        }
-
         [HttpPost]
         public async Task<IActionResult> Create(Company company)
         {
@@ -37,7 +27,16 @@ namespace RTSimTestTaskServerApplication.Controllers
         public async Task<IActionResult> GetAll()
         {
             List<Company> companies = await _dbContext.Companies.ToListAsync();
+
             return Json(companies);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetUsersForCompany([FromQuery] int companyId)
+        {
+            var users = await _dbContext.Users.Where(c => c.Company.Id == companyId).ToListAsync();
+
+            return Ok(users);
         }
     }
 }
