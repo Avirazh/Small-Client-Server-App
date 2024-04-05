@@ -1,10 +1,6 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Net.Http;
 using System.Windows.Controls;
-using System.Windows.Diagnostics;
 using System.Windows.Input;
 using System.Windows.Navigation;
 using WPFClient.Model;

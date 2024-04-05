@@ -1,5 +1,4 @@
-﻿using System.Net.Http;
-using System.Windows.Controls;
+﻿using System.Windows.Controls;
 using WPFClient.Net;
 using WPFClient.ViewModel;
 

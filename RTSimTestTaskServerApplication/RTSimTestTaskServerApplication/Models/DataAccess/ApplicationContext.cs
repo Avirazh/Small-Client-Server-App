@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Diagnostics;
 
 namespace RTSimTestTaskServerApplication.Models.DataAccess
 {
