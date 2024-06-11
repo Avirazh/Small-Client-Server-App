@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RTSimTestTaskServerApplication.Models;
 using RTSimTestTaskServerApplication.Models.DataAccess;
 
 namespace RTSimTestTaskServerApplication.Controllers
 {
+    [Route("[controller]")]
+    [ApiController]
     public class CompanyController : Controller
     {
         private ApplicationContext _dbContext;
@@ -23,15 +26,20 @@ namespace RTSimTestTaskServerApplication.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
+        [HttpGet("getall")]
+        public async Task<IActionResult> GetAll(string contents)
         {
+            /*_dbContext.Companies.Add( new Company() { Name = "Компания 1" });
+            _dbContext.Companies.Add(new Company() { Name = "Компания 2" });
+            _dbContext.Companies.Add(new Company() { Name = "Компания 3" });
+            await _dbContext.SaveChangesAsync();*/
+
             List<Company> companies = await _dbContext.Companies.ToListAsync();
 
             return Json(companies);
         }
 
-        [HttpGet]
+        [HttpGet("getusersforcompany")]
         public async Task<IActionResult> GetUsersForCompany([FromQuery] int companyId)
         {
             var users = await _dbContext.Users.Where(c => c.Company.Id == companyId).ToListAsync();

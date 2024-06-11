@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\models\\dataaccess\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\models\\dataaccess\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\services\\passwordhashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\services\\passwordhashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|d:\\csharpprojects\\small-client-server-app\\rtsimtesttaskserverapplication\\rtsimtesttaskserverapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{815085B8-8A70-423F-A49C-F15B4509BB7F}|RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj|solutionrelative:rtsimtesttaskserverapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Models\\DataAccess\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\Models\\DataAccess\\ApplicationContext.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Models\\DataAccess\\ApplicationContext.cs",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\Models\\DataAccess\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:15:49.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Program.cs",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\Program.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Program.cs",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:15:49.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\Models\\Company.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Models\\Company.cs",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\Models\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:15:49.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\appsettings.json",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\appsettings.json",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T16:15:49.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\Models\\User.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Models\\User.cs",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:15:49.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwE4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:15:49.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordHashService.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Services\\PasswordHashService.cs",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\Services\\PasswordHashService.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Services\\PasswordHashService.cs",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\Services\\PasswordHashService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T02:43:17.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:15:49.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\Services\\JwtService.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Services\\JwtService.cs",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\Services\\JwtService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T02:47:26.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\Controllers\\CompanyController.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\Controllers\\CompanyController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:15:49.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RTSimTestTaskServerApplication",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-10T12:18:21.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\appsettings.Development.json",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\appsettings.Development.json",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T16:15:49.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RTSimTestTaskServerApplication\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\RTSimTestTaskServerApplication\\RTSimTestTaskServerApplication\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RTSimTestTaskServerApplication\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T16:15:49.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

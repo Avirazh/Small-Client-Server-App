@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7RB5jdRJ6y2jtTotP5nxMdzvd5tiHLTJ4VMzH3R71sM=",
+  "Source": "RTSimTestTaskServerApplication",
+  "BasePath": "_content/RTSimTestTaskServerApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

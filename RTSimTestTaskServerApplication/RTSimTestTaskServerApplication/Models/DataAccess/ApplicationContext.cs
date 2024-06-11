@@ -9,6 +9,7 @@ namespace RTSimTestTaskServerApplication.Models.DataAccess
 
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {
+            //Database.EnsureDeleted();
             Database.EnsureCreated();
         }   
     }

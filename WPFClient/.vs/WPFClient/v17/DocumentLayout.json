@@ -1,0 +1,472 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\core\\net\\apphttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:core\\net\\apphttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|d:\\csharpprojects\\small-client-server-app\\wpfclient\\core\\jwt\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:core\\jwt\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|d:\\csharpprojects\\small-client-server-app\\wpfclient\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\viewmodel\\startviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:viewmodel\\startviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\viewmodel\\authenticateduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:viewmodel\\authenticateduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\viewmodel\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:viewmodel\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\registrationpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\registrationpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\core\\command\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:core\\command\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\core\\loginbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:core\\loginbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\viewmodel\\loginviacompanyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:viewmodel\\loginviacompanyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\startpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\startpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\core\\xamlextentions\\bindablepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:core\\xamlextentions\\bindablepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\startpageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\startpageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\registrationpageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\registrationpageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\loginviacompanypageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\loginviacompanypageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\loginpageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\loginpageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\authenticateduserpageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\authenticateduserpageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\loginviacompanypageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\loginviacompanypageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\authenticateduserpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\authenticateduserpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\view\\loginpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:view\\loginpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\core\\xamlextentions\\bindablepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E049DFC-42DD-4A74-A139-5D9D93C9EB27}|WPFClient.csproj|solutionrelative:core\\xamlextentions\\bindablepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 115,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA9wCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T00:59:57.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-03T23:19:46.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\Jwt\\JwtService.cs",
+              "RelativeDocumentMoniker": "Core\\Jwt\\JwtService.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\Jwt\\JwtService.cs",
+              "RelativeToolTip": "Core\\Jwt\\JwtService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:59:26.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginBase.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\LoginBase.cs",
+              "RelativeDocumentMoniker": "Core\\LoginBase.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\LoginBase.cs",
+              "RelativeToolTip": "Core\\LoginBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T03:11:18.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppHttpClient.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\Net\\AppHttpClient.cs",
+              "RelativeDocumentMoniker": "Core\\Net\\AppHttpClient.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\Net\\AppHttpClient.cs",
+              "RelativeToolTip": "Core\\Net\\AppHttpClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T23:40:17.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartViewModel.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\ViewModel\\StartViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\StartViewModel.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\ViewModel\\StartViewModel.cs",
+              "RelativeToolTip": "ViewModel\\StartViewModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T23:17:44.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T16:05:12.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistrationPageView.xaml",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\RegistrationPageView.xaml",
+              "RelativeDocumentMoniker": "View\\RegistrationPageView.xaml",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\RegistrationPageView.xaml",
+              "RelativeToolTip": "View\\RegistrationPageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T16:23:28.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\ViewModel\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RegistrationViewModel.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\ViewModel\\RegistrationViewModel.cs",
+              "RelativeToolTip": "ViewModel\\RegistrationViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC8AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T23:16:17.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticatedUserViewModel.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\ViewModel\\AuthenticatedUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AuthenticatedUserViewModel.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\ViewModel\\AuthenticatedUserViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AuthenticatedUserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T04:15:46.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\Command\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Core\\Command\\RelayCommand.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\Command\\RelayCommand.cs",
+              "RelativeToolTip": "Core\\Command\\RelayCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T19:31:42.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginViaCompanyViewModel.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\ViewModel\\LoginViaCompanyViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LoginViaCompanyViewModel.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\ViewModel\\LoginViaCompanyViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LoginViaCompanyViewModel.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAwGAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T02:03:07.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "View\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:57:27.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StartPageView.xaml",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\StartPageView.xaml",
+              "RelativeDocumentMoniker": "View\\StartPageView.xaml",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\StartPageView.xaml",
+              "RelativeToolTip": "View\\StartPageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T16:25:58.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BindablePassword.xaml.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\XamlExtentions\\BindablePassword.xaml.cs",
+              "RelativeDocumentMoniker": "Core\\XamlExtentions\\BindablePassword.xaml.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\XamlExtentions\\BindablePassword.xaml.cs",
+              "RelativeToolTip": "Core\\XamlExtentions\\BindablePassword.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T19:34:05.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StartPageView.xaml.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\StartPageView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\StartPageView.xaml.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\StartPageView.xaml.cs",
+              "RelativeToolTip": "View\\StartPageView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:58:31.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegistrationPageView.xaml.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\RegistrationPageView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\RegistrationPageView.xaml.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\RegistrationPageView.xaml.cs",
+              "RelativeToolTip": "View\\RegistrationPageView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T16:24:37.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginViaCompanyPageView.xaml",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\LoginViaCompanyPageView.xaml",
+              "RelativeDocumentMoniker": "View\\LoginViaCompanyPageView.xaml",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\LoginViaCompanyPageView.xaml",
+              "RelativeToolTip": "View\\LoginViaCompanyPageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-05T01:03:43.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthenticatedUserPageView.xaml",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\AuthenticatedUserPageView.xaml",
+              "RelativeDocumentMoniker": "View\\AuthenticatedUserPageView.xaml",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\AuthenticatedUserPageView.xaml",
+              "RelativeToolTip": "View\\AuthenticatedUserPageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-05T03:19:31.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginPageView.xaml",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\LoginPageView.xaml",
+              "RelativeDocumentMoniker": "View\\LoginPageView.xaml",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\LoginPageView.xaml",
+              "RelativeToolTip": "View\\LoginPageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-05T01:01:53.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Model\\Company.cs",
+              "RelativeDocumentMoniker": "Model\\Company.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Model\\Company.cs",
+              "RelativeToolTip": "Model\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T00:06:11.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginViaCompanyPageView.xaml.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\LoginViaCompanyPageView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\LoginViaCompanyPageView.xaml.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\LoginViaCompanyPageView.xaml.cs",
+              "RelativeToolTip": "View\\LoginViaCompanyPageView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T02:02:55.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginPageView.xaml.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\LoginPageView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\LoginPageView.xaml.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\LoginPageView.xaml.cs",
+              "RelativeToolTip": "View\\LoginPageView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T01:00:35.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthenticatedUserPageView.xaml.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\AuthenticatedUserPageView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AuthenticatedUserPageView.xaml.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\View\\AuthenticatedUserPageView.xaml.cs",
+              "RelativeToolTip": "View\\AuthenticatedUserPageView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T05:19:20.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T05:19:01.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T23:40:50.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BindablePassword.xaml",
+              "DocumentMoniker": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\XamlExtentions\\BindablePassword.xaml",
+              "RelativeDocumentMoniker": "Core\\XamlExtentions\\BindablePassword.xaml",
+              "ToolTip": "D:\\CSharpProjects\\Small-Client-Server-App\\WPFClient\\Core\\XamlExtentions\\BindablePassword.xaml",
+              "RelativeToolTip": "Core\\XamlExtentions\\BindablePassword.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T19:34:02.735Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

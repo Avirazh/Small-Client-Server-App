@@ -10,6 +10,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using WPFClient.Core;
+using WPFClient.Jwt;
 using WPFClient.Model;
 using WPFClient.Net;
 using WPFClient.View;
@@ -92,6 +93,9 @@ namespace WPFClient.ViewModel
 
             if (response.IsSuccessStatusCode)
             {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                JwtService.CreateFile(responseContent);
+
                 Thread.CurrentPrincipal = new GenericPrincipal(
                     new GenericIdentity(SelectedUser.Login), null);
 
